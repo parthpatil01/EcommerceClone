@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
+    tools:context=".VerifyOtp">
+
+    <LinearLayout
+        android:id="@+id/verify_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please verify phone number to proceed further."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/otp_et"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:hint="Enter OTP" />
+
+        <Button
+            android:id="@+id/verify_otp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="verify" />
+
+        <Button
+            android:id="@+id/resend_otp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="resend otp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

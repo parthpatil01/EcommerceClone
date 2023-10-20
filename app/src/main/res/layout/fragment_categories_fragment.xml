@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="10dp"
+    tools:context="Fragments.CategoriesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/shirt_ll"
+            android:onClick="shirtCat"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/shirts" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Shirts"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/trouser_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/trousers" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Trousers"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/sweater_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/sweater" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Sweaters"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/jackets_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/jackets" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Jackets"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dresses_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/dresses" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Dresses"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/western_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/western" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Western"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sandals_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/sandals" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Sandals"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shoes_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/shoes" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Shoes"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/watches_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/watches" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Watches"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/luggages_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/luggages" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Luggages"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

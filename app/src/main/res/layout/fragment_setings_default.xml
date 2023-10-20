@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="#f2f2f2"
+        android:gravity="bottom">
+
+        <ImageView
+            android:id="@+id/default_settings_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="25dp"
+            android:src="#e6e6e6" />
+
+        <TextView
+            android:id="@+id/default_settings_username"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignTop="@+id/default_settings_image"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toEndOf="@+id/default_settings_image"
+            android:gravity="center_vertical"
+            android:text="Username"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/change_profile_picture"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_edit_profile"
+        android:drawablePadding="7dp"
+        android:drawableTint="@color/black"
+        android:elevation="1dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Edit User Profile"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_renameit"
+        android:drawablePadding="7dp"
+        android:drawableTint="@color/black"
+        android:elevation="1dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="User info"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>
